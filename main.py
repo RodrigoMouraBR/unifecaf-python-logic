@@ -9,7 +9,7 @@ ARQUIVO = "estoque.json"
 app = FastAPI(
     title="API de Controle de Estoque",
     version="1.0.0",
-    description="CRUD de produtos com SKU único + persistência em JSON."
+    description="Desenvolvendo um Sistema de Controle de Estoque com Python: Soluções para Gerenciamento em uma Loja de Eletrônico"
 )
 
 
