@@ -1,0 +1,11 @@
+services:
+  estoque-api:
+    build: .
+    container_name: estoque-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ARQUIVO=/data/estoque.json
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
